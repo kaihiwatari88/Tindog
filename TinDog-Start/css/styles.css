@@ -1,0 +1,173 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* Heading */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+/* Section-Color */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color:#fff;
+}
+/* Container section */
+.container-fluid{
+  padding:  8% 15%;
+}
+/* Download Button */
+.btn-download{
+  margin: 5% 3% 5% 0;
+}
+/* Title Section */
+/* #title{
+
+} */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features{
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-txt{
+  font-size: 1.5rem;
+}
+.feature-box{
+  padding: 4%;
+}
+
+
+p{
+  color:#8f8f8f;
+  line-height: 1.5;
+  /* width: 75%; */
+  /* margin: auto; */
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+/* Navigation Brand */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  /* line-height: 4.5; */
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+
+/* Title Image */
+
+
+/* Font Awesome icons */
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.carousel-item{
+    padding: 8% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+.logo-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* #pricing{
+  padding: 8% 15%;
+} */
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+@media (max-width:  990px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* .button-price{
+  width:90%;
+  margin: 10px;
+} */
+
+/* Call to action */
+
+
+/* Footer Section */
+/* #footer{
+  padding: 8% 15%;
+
+  color: #fff;
+} */
+.social-icons{
+  /* padding: 1%; */
+  color: black;
+  margin: 20px 10px;
+}
+
+/* .Copyright{
+  padding-top: 2%;
+} */
